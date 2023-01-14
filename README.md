@@ -1,10 +1,17 @@
-# my-vue-app
+# vue-try
 
 ### 開発者が、気の向くままに色々試すための、リポジトリ
 
 # #1
 
 # とりあえず、Todo 作ってみる
+
+## function
+
+- Todo の一覧取得
+- Todo の登録
+- Todo の更新
+- Todo の削除
 
 # クラス
 
