@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>This is Home View Page</p>
-    <v-btn @click="click('hi')">Button</v-btn>
+    <SmBtn buttonName="button" @click="click" />
   </div>
 </template>
 
