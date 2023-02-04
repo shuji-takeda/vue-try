@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="onClick">{{ buttonName }}</button>
+    <v-btn @click="onClick">{{ buttonName }}</v-btn>
   </div>
 </template>
 

@@ -1,16 +1,19 @@
 <template>
-  <div>
-    <p>This is Home View Page</p>
-    <SmBtn buttonName="button" @click="click" />
+  <div class="pa-10">
+    <todo-card />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import SmBtn from "../components/atoms/SmBtn.vue";
+import TodoCard from "../components/molecules/TodoCard.vue";
 import Component from "vue-class-component";
 
-@Component
+@Component({
+  components: {
+    TodoCard,
+  },
+})
 export default class Home extends Vue {
   onClick(): void {
     window.alert("onClcik");

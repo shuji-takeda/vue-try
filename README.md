@@ -31,8 +31,6 @@
 
 ### Organism
 
-- TodoCardList
-
 ### Molecules
 
 - TodoCard

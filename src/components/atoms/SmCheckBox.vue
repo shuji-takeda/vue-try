@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <button @click="onClcikEmit">{{ buttonName }}</button>
-  </div>
+  <v-checkbox />
 </template>
 
 <script lang="ts">
@@ -10,7 +8,7 @@ import Component from "vue-class-component";
 import { Prop } from "vue-property-decorator";
 
 @Component
-export default class CheckBox extends Vue {
+export default class SmCheckBox extends Vue {
   @Prop()
   private buttonName!: string;
 
